@@ -1,6 +1,10 @@
-This program is a toy D.E.S. encryption and decryption algorithm.
+This program is a toy D.E.S. (Data Encryption Standard) encryption and decryption algorithm.
 Ehren Schindelar
 RIN 661677600
+
+This can be run as a python script with the following command line inputs
+./hw1.py <encrypt/decrypt> <input filename> <output filename> <10 bit key (e.g. 1010010010)>
+please include the file extensions
 
 It reads from data in sets of 8 bits, and performs various operations
 on them to create a new set of 8 bits, which it writes to a file.
